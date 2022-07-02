@@ -1,0 +1,147 @@
+@charset "utf-8";
+*{
+border:0;
+margin:0;
+padding:0;
+}
+
+body
+{
+	background:url(img/fondo.jpg) fixed no-repeat center center;
+}
+
+#contenedor
+{
+  background:#fff;
+  height:1050px;
+  width:850px;
+  margin-right:auto;
+  margin-left:auto;
+}
+header , #banner, #noticias, #tienda, #marcas
+{
+ background:#555;
+ height:100px;
+ width:850px;
+}
+#banner
+{
+  background:url(img/banner.jpg);
+  height:300px;
+  }
+#noticias
+{
+  background:#999;
+  height:220px;
+ }
+ #tienda
+{
+  background:#fff;
+  height:180px;
+}
+
+#marcas
+{
+  background:#858;
+  height:100px;
+}
+footer
+{
+  background:#259;
+  height:100px;
+}
+#noticias #noticia1
+{
+ background:#333;
+ height:220px;
+ width:280px;
+ display:inline-block;
+ vertical-align:top;
+}
+
+#noticias #noticia2
+{
+ background:#444;
+ height:220px;
+ width:280px;
+ display:inline-block;
+ vertical-align:top;
+}
+
+#noticias #noticia3
+{
+ background:#555;
+ height:220px;
+ width:280px;
+ display:inline-block;
+ vertical-align:top;
+}
+
+#tienda #producto1
+{
+ background:#fff;
+ height:180px;
+ width:205px;
+ display:inline-block;
+ vertical-align:top;
+ margin:0px 2px;
+}
+
+#tienda #producto2
+{
+ background:#fff;
+ height:180px;
+ width:205px;
+ display:inline-block;
+ vertical-align:top;
+ margin:0px 3px;
+}
+
+#tienda #producto3
+{
+ background:#fff;
+ height:180px;
+ width:205px;
+ display:inline-block;
+ vertical-align:top;
+ margin:0px 2px;
+}
+
+#tienda #producto4
+{
+ background:#fff;
+ height:180px;
+ width:205px;
+ display:inline-block;
+ vertical-align:top;
+ margin:0px 2px;
+}
+
+.espacio
+{
+ width:840px;
+ height:20px;
+ background:#fff;
+}
+.fade
+{
+  /*Efecto de transicion */
+  -ms-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+   transition: all 0.5s ease-in;
+  filter:alpha(opacity=4);
+}
+
+.fade:hover
+{
+  /*Efecto de transicion */
+  -ms-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+   transition: all 0.5s ease-out;
+   opacity:0.4;
+   filter:alpha(opacity=4);
+}
